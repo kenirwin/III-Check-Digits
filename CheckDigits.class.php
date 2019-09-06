@@ -15,7 +15,7 @@ class CheckDigits {
             $sum = ($d[1] * 8) + ($d[2] * 7) + ($d[3] * 6) + ($d[4] * 5) + ($d[5] * 4) + ($d[6] * 3) + ($d[7] *2);
             $check = $sum % 11;
             if ($check == 10) { $check = 'x'; }
-            return $seed . $check;
+            return 'b' . $seed . $check;
         }
     }
     
