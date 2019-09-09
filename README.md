@@ -7,4 +7,5 @@ index.php:
 CheckDigits.class.php:
 * also includes a Validate method that returns true or false for a given input (optional-"b" + 7 digits + [0-9x])
  
-
+## III's documentation
+III's approach to check digits is described at: https://csdirect.iii.com/sierrahelp/Content/sril/sril_records_numbers.html 
